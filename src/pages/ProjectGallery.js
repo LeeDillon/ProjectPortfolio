@@ -7,18 +7,20 @@ function ProjectGallery() {
 
   return (
     <div>
-      <h1>Project List</h1>
-      {projectsData.map((project) => (
-        <Project
-          id={project.id}
-          key={project.id}
-          name={project.name}
-          image={project.image}
-          description={project.description}
-          githubRepo={project.githubRepo}
-          deployedAppLink={project.deployedAppLink}
-        />
-      ))}
+      <h1 className='Title'>Project List</h1>
+      <div className="row" id="work">
+        {projectsData.map((project) => (
+          <Project
+            id={project.id}
+            key={project.id}
+            name={project.name}
+            image={project.image}
+            description={project.description}
+            githubRepo={project.githubRepo}
+            deployedAppLink={project.deployedAppLink}
+          />
+        ))}
+      </div>
     </div>
   );
 }

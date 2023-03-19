@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+/* Colour Pallete */
+:root {
+  --darkgrey: rgb(90, 83, 83);
+  --pale: rgb(230, 204, 190);
+  --purple: rgb(119, 98, 116);
+  --green: rgb(200, 204, 146);
+  --pink: rgb(160, 113, 120);
+  --lightgrey: rgb(235, 239, 240);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: var(--lightgrey) !important;
+}
+/* Navbar Styling */
+
+nav, .nav-item {
+  background-color: var(--purple);
+  color: var(--lightgrey);
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Home/About styling */
+.flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.profile-pic {
+  min-width: 318px;
+  min-height: 318px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.jumbotron {
+  background-color: var(--lightgrey);
+  margin-bottom: 0%;
+}
+
+/* Project section styling */
+.Title {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#work {
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.col-sm-12 {
+    padding: 5px;
+}
+
+.img-container {
+    border: black solid;
+    border-radius: 6px;
+}
+
+.card {
+    color: black;
+    align-items: flex-end;
+    background-color: var(--green) !important;
+
+}
+
+/* Skills/Contact/About section styling */
+/* .personal-info {
+    padding: 20px;
+} */
+
+/* footer styling */
+footer {
+  /* margin-bottom: 10px; */
+  color: var(--lightgrey);
+  background-color: var(--darkgrey);
 }

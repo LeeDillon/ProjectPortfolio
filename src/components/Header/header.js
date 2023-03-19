@@ -1,36 +1,47 @@
-import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Header() {
-    return (
-    <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <div className="container">
-                <Link className="navbar-brand js-scroll-trigger" href="/">My Development Portfolio</Link>
-            <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation">
-                Menu
-                <i className="fas fa-bars"></i>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarResponsive">    
-                <ul className="navbar-nav ml-auto">
-                    <li className="nav-item">
-                        <NavLink className="nav-link js-scroll-trigger" to="/">Home</NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink className="nav-link js-scroll-trigger" to="/">About</NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink className="nav-link js-scroll-trigger" to="/ProjectGallery">Project Gallery</NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink className="nav-link js-scroll-trigger" to="/Contact">Contact</NavLink>
-                    </li>
-                </ul>
-            </div>
-        </div>
+  return (
+    <nav class="navbar navbar-expand-lg p-2" id="page-top">
+      <NavLink className="nav-link js-scroll-trigger" to="/">
+        Lee Dillon Portfolio 2023
+      </NavLink>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item">
+            <NavLink className="nav-link js-scroll-trigger" to="/">
+              About
+            </NavLink>
+          </li>
+          <li class="nav-item">
+            <NavLink
+              className="nav-link js-scroll-trigger"
+              to="/ProjectGallery"
+            >
+              Project Gallery
+            </NavLink>
+          </li>
+          <li class="nav-item">
+            <NavLink className="nav-link js-scroll-trigger" to="/Contact">
+              Contact
+            </NavLink>
+          </li>
+        </ul>
+      </div>
     </nav>
-    );
+  );
 }
 
 export default Header;
