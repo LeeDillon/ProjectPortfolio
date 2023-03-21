@@ -10,7 +10,7 @@ Using the concepts I have learned to create a Project Portfolio.
 
 
 
-* The URL of the deployed application: I have been unable to deploy with Netlify or GitHub pages
+* The URL of the deployed application: https://main--steady-mandazi-05d828.netlify.app/
 
 * The URL of the GitHub repository: https://github.com/LeeDillon/projectportfolio
 
