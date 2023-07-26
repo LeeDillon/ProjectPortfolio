@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "name": "FootyPals App",
+    "image": "./images/footypals.png",
+    "githubRepo": "https://github.com/LeeDillon/FootyPals",
+    "deployedAppLink": "https://footypals.netlify.app/",
+    "description": "This football app allows the user to stay up-to-date with all things Premier League in one place"
+  },
+  {
+    "id": 2,
     "name": "Local Business Explorer",
     "image": "./images/localBusiness.png",
     "githubRepo": "https://github.com/LeeDillon/Local-Business-Explorer",
@@ -8,7 +16,7 @@
     "description": "This Local Business Explorer app allows the user to search for any type of business in any city"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Weather Dashboard",
     "image": "./images/weather.png",
     "githubRepo": "https://github.com/LeeDillon/Weather-Dashboard",
@@ -16,7 +24,7 @@
     "description": "Using the concepts I have learned about server side API's to create a Weather Dashboard App"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Daily Planner App",
     "image": "./images/planner.png",
     "githubRepo": "https://github.com/LeeDillon/Daily-Planner-App-Working-9-to-5-what-a-way-to-make-a-living",
@@ -24,7 +32,7 @@
     "description": "Using the concepts I have learned about local storage and moment to create a dynamically generated schedule that can be easily modified"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Simple Javascript Quiz",
     "image": "./images/quiz.png",
     "githubRepo": "https://leedillon.github.io/My-Simple-JavaScript-Quiz/",
@@ -32,7 +40,7 @@
     "description": "A simple quiz game where questions are dynamically generated and scores are saved to a leaderboard. What is your high score?"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Team Profile Generator",
     "image": "./images/teamProfile.png",
     "githubRepo": "https://github.com/LeeDillon/Mean-Green-Team-Profile-Generator",
@@ -40,7 +48,7 @@
     "description": "This is a tool for businesses to use that accepts user input via the command line and dynamically generates cards on a html page for each employee"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Password Generator",
     "image": "./images/password.png",
     "githubRepo": "https://github.com/LeeDillon/Challenge-5-Password-Generator",

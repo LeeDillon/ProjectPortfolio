@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <nav class="navbar navbar-expand-lg p-2" id="page-top">
+    <nav class="navbar navbar-dark navbar-expand-lg p-2" id="page-top">
       <NavLink className="nav-link js-scroll-trigger" to="/">
         Lee Dillon Portfolio 2023
       </NavLink>
