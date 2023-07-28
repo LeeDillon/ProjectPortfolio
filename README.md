@@ -10,7 +10,7 @@ Using the concepts I have learned to create a Project Portfolio.
 
 
 
-* The URL of the deployed application: https://main--steady-mandazi-05d828.netlify.app/
+* The URL of the deployed application: https://leedillon-projectportfolio.netlify.app/
 
 * The URL of the GitHub repository: https://github.com/LeeDillon/projectportfolio
 
